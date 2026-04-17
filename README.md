@@ -1,4 +1,4 @@
-# 🧠 Explainable Recall Prediction System
+#  Explainable Recall Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20RandomForest-green)
