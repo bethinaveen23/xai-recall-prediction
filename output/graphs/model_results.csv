@@ -1,0 +1,21 @@
+,model,acc,prec,rec,f1,roc
+LogisticRegression,LogisticRegression(max_iter=1000),0.996,0.9957219251336898,1.0,0.9978563772775991,1.0
+DecisionTree,DecisionTreeClassifier(random_state=42),1.0,1.0,1.0,1.0,1.0
+RandomForest,"RandomForestClassifier(n_estimators=200, random_state=42)",0.996,0.9957219251336898,1.0,0.9978563772775991,1.0
+SVM,"SVC(probability=True, random_state=42)",0.995,0.9946581196581197,1.0,0.9973219068023568,0.9996730957829356
+KNN,KNeighborsClassifier(),0.956,0.9548717948717949,1.0,0.9769150052465897,0.900418748735192
+XGBoost,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='logloss',
+              feature_types=None, feature_weights=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, ...)",1.0,1.0,1.0,1.0,1.0
+AdaBoost,"AdaBoostClassifier(n_estimators=200, random_state=42)",1.0,1.0,1.0,1.0,1.0
+LightGBM,"LGBMClassifier(n_estimators=200, random_state=42, verbose=-1)",1.0,1.0,1.0,1.0,0.9999999999999999
+CatBoost,"CatBoostClassifier(depth=6, iterations=200, learning_rate=0.1, random_seed=42, verbose=0)",1.0,1.0,1.0,1.0,1.0
