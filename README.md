@@ -1,18 +1,18 @@
 # 🧠 Explainable Recall Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20RandomForest-green)
-![DL](https://img.shields.io/badge/DL-CNN%20%7C%20LSTM-orange)
-![XAI](https://img.shields.io/badge/XAI-SHAP%20%7C%20LIME-red)
+![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20RandomForest-green)
+![Deep Learning](https://img.shields.io/badge/DL-CNN%20%7C%20LSTM-orange)
+![Explainable AI](https://img.shields.io/badge/XAI-SHAP%20%7C%20LIME-red)
 ![Status](https://img.shields.io/badge/Status-Research%20Project-success)
 
 ---
 
 ## 📌 Overview
 
-This project predicts user recall in learning systems using machine learning and deep learning models, with a strong focus on explainability.
+This project predicts whether a user will recall a learned concept using behavioral interaction data.
 
-The goal is not just accuracy, but understanding how models make decisions.
+The focus is not just on accuracy, but on understanding how models make decisions using Explainable AI.
 
 ---
 
@@ -27,7 +27,7 @@ The goal is not just accuracy, but understanding how models make decisions.
 ## 📊 Results
 
 * Accuracy up to ~97%
-* Strong ROC-AUC across models
+* Strong ROC-AUC
 * Consistent feature importance
 
 ---
@@ -36,34 +36,34 @@ The goal is not just accuracy, but understanding how models make decisions.
 
 ### 🔹 SHAP Plot
 
-![SHAP](./outputs/shap_plots/shap_summary_rf.png)
+![SHAP](./output/shap_plots/shap_summary_rf.png)
 
 ---
 
 ### 🔹 Confusion Matrix
 
-![Confusion Matrix](./outputs/confusion_matrix/confusion_matrix_rf.png)
+![Confusion Matrix](./output/confusion_matrix/confusion_matrix_rf.png)
 
 ---
 
 ### 🔹 Feature Importance
 
-![Feature Importance](./outputs/graphs/feature_importance_rf.png)
+![Feature Importance](./output/graphs/feature_importance_rf.png)
 
 ---
 
 ### 🔹 Model Comparison
 
-![Model Comparison](./outputs/graphs/model_comparison.png)
+![Model Comparison](./output/graphs/model_comparison.png)
 
 ---
 
 ## 📂 Project Structure
 
-```
+```id="structure_fixed"
 xai-recall-prediction/
 │
-├── outputs/
+├── output/
 │   ├── shap_plots/
 │   ├── confusion_matrix/
 │   └── graphs/
