@@ -36,19 +36,19 @@ The focus is not just on accuracy, but on understanding how models make decision
 
 ### 🔹 SHAP Plot
 
-![SHAP](./output/shap_plots/shap_summary_rf.png)
+![SHAP](./output/shap_plots/shap_summary.png)
 
 ---
 
 ### 🔹 Confusion Matrix
 
-![Confusion Matrix](./output/confusion_matrix/confusion_matrix_rf.png)
+![Confusion Matrix](./output/confusion_matrix/confusion_matrix.png)
 
 ---
 
 ### 🔹 Feature Importance
 
-![Feature Importance](./output/graphs/feature_importance_rf.png)
+![Feature Importance](./output/graphs/feature_importance.png)
 
 ---
 
